@@ -173,7 +173,9 @@ def main():
     db_handler = DatabaseHandler()
 
     urls = [
-        "https://boundenergyinnovations.com"
+        "https://example.com",
+        "https://example.gov",
+        "https://example.edu"
     ]
 
     crawler = Crawler(db_handler, depth_limit=1)
